@@ -8,7 +8,8 @@ export default function handler(req, res) {
     return res.status(401).send("Unauthorized")
   }
 
-  const csv = fs.readFileSync("./jamesbrine-indicators.csv", "utf8")
+  const csv = "ip,threat\n1.1.1.1,botnet\n2.2.2.2,malware"
+  // const csv = fs.readFileSync("./jamesbrine-indicators.csv", "utf8")
 
   res.setHeader("Content-Type", "text/csv")
   res.status(200).send(csv)

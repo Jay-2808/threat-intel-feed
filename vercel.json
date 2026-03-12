@@ -2,7 +2,7 @@
   "routes": [
     {
       "src": "/feed",
-      "dest": "/api.js"
+      "dest": "/api/feed.js"
     }
   ]
 }

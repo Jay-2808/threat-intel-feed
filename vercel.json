@@ -3,6 +3,9 @@
     {
       "src": "/feed",
       "dest": "/api/feed.js"
+    },{
+      "src": "/csv-feeds",
+      "dest": "/api/csv-feeds.js"
     }
   ]
 }
